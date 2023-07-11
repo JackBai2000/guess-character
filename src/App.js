@@ -10,8 +10,10 @@ import CharacterContent from './Pages/CharacterContent';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import miku from './nakano_miku_render___anime_render_by_niktushi_dcyji16-375w.png';
+import CharactersListPage from './Pages/CharactersListPage';
 
 function App() {
+  
 
   const [animeChars, SetAnimeChars] = useState([]);
   const [char, SetAnimeChar] = useState([]);
@@ -23,11 +25,11 @@ function App() {
     SetAnimeChar(temp)
  };
  
-  useEffect(() => {
+  useEffect(() => {    
     CharacterContent();
   },[])
 
-  console.log(char.data.name);
+  console.log(char);
 
   return (
     <BrowserRouter>
@@ -37,14 +39,17 @@ function App() {
       <Routes>
       <Route path ="/" element ={<HomePage/>} />
       <Route path = "/about" element = {<AboutPage/>} />
-      <Route path = "/list" element = {<ListPage/>} />
-      <Route path = "/characters" element = {<CharactersPage/>} />
-      <Route path = "/characters/:characterid" element = {<CharacterContent/>} />
+      <Route path = "/characters" element = {<CharactersListPage/>} />
+      <Route path = "/characters/:id" element = {<CharactersPage/>} />
+      <Route path ="*" element = {<NotFoundPage/>}/>
       </Routes>
-      <img src={char.data.images.jpg.image_url} alt = {miku}/>
     </div>
     </BrowserRouter>
   );
 }
 
 export default App;
+
+// const response = await axios.get('http://localhost:8000/api/..../....')
+// const data = response.data; 
+// 

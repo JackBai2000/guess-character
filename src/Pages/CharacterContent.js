@@ -1,11 +1,7 @@
-import { useEffect } from "react";
-
-
-const CharacterContent = async () =>{
-   const temp = await fetch("https://api.jikan.moe/v4/characters/{160603}")
-      .then(res => res.json());
-   
-   console.log(temp.name);
-};
+const CharacterContent = () => {
+    return (
+        <h1> Here is a Character! </h1>
+    );
+}
 
 export default CharacterContent;

@@ -1,6 +1,6 @@
 const ListPage = () => {
     return (
-        <h1> Listdge! </h1>
+        <h1> List of Anime! </h1>
     );
 }
 
