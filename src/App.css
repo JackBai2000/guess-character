@@ -18,9 +18,9 @@ h3, h4 {
 }
 
 nav {
-  /* border-bottom: 4px solid black; */
+  border-bottom: 4px solid black;
   text-align: center;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   width: 100%;
   background: white;
@@ -111,4 +111,20 @@ input, textarea {
   position: absolute;
   top: 8px;
   right: 8px;
+}
+
+.about{
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 10px;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  line-height: 1.8em;
+}
+
+.p{
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 20px;
+  text-overflow: ellipsis;
 }

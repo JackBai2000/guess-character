@@ -48,6 +48,7 @@ const CharactersPage = () => {
         <img src={charInfo.images.jpg.image_url} width={400} length = {400}></img>
         <figcaption style ={{fontWeight: 600, color: 'black', bold: true, justifyContent: 'bottom'}} >{charInfo.name}</figcaption>
         </figure>
+        <p class='about'> {charInfo.nicknames} {charInfo.about} {charInfo.url}</p>
         </>
     );
 }

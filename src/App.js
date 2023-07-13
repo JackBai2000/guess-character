@@ -35,7 +35,6 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <NavBar></NavBar>
-      <h1>Welcome to Guess Anime~!</h1>
       <Routes>
       <Route path ="/" element ={<HomePage/>} />
       <Route path = "/about" element = {<AboutPage/>} />
