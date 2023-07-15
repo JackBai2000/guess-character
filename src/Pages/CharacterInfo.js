@@ -1107,68 +1107,6 @@ const characters = [
             "about": "Race: Saiyan\nHeight: 5'9\" (175.3 cm)\nWeight: 187 lbs (85.4 kg)\nBirth year: 737 Age\nHobby: Fighting strong opponents\nFavorite food: Everything\nFavorite vehicle: Kintoun (Nimbus)\n\nOriginally named Kakarot, Gokuu is born a member of a race of extraterrestrials called the Saiyans. Shortly following his birth, Gokuu is sent from his native planet Vegeta to Earth, for potential selling on the intergalactic market by destroying all its life; Goku was also sent away to escape Freeza's genocide of the Saiyans. Once he lands on Earth, he is adopted by an old man named Gohan (who is later just called Grandpa Gohan). At first, Goku is very violent as a kid due to his Saiyan blood, but due to an injury to his head that caused him severe amnesia, Gokuu changes to a more tempered, innocent boy. At the start of the series, Gokuu meets Bulma, Yamucha, Oolong, and Pu'ar, whose characters mirror those found in Wu Cheng'en's Journey to the West. He also encounters Kuririn, who eventually becomes his best friend, and others during his journey for more strength. Participating in several World Martial Arts Tournaments, Gokuu also battles foes-turned-allies such as Tenshinhan and Chaozu, as well as the offspring of Demon King Piccolo named Majunior (later, he's named just Piccolo).\n\nDragon Ball Z takes place 5 years after Gokuu's victory against Piccolo in the 23rd Budokai Tenkaichi. He now has a son named Son Gohan (named after Grandpa Gohan) who lacks his father's love of fighting but has a great hidden potential himself. Throughout the series, Gokuu &amp; Gohan face terribly strong opponents like other powerful Saiyans, a space tyrant, artificial humans, Majins &amp; Gods that threaten Earth while also giving them exhilarating fights. Along with new enemies, they also gain new friends that help in these situations. As well as becoming more powerful, Gokuu learns to accept his forgotten Saiyan heritage (this gives him a small identity crisis when Raditz reveals his past, and is something he carries with him into the proceeding Namek arc) &amp; consistently comes across the predicament of killing an opponent (he starts out killing without much thought to the moral consequences of taking a life, and only after training under Kami does he start to struggle with killing a person; this comes to a head when he fights Freeza on Namek).\n\nIn Dragon Ball GT, which is not based on Toriyama's manga, Gokuu is turned into a child by Pilaf via the Black-Star Dragon Balls. The series revolves around him traveling around space to find the Black Star Dragon Balls with the help of his granddaughter Pan and Trunks. After collecting the spheres, Gokuu does battle with Baby (a Tuffle who wants revenge on all Saiyans for killing his race), Super 17 (a powered-up version of former enemy Artificial Human 17) and various Evil Dragons (the physical constructs of negative energy accumulated in the Dragon Balls; they are called Shadow Dragons in FUNimation's dub). The series ends with Gokuu leaving for good with Shenron and returning 100 years later to witness the match between Gokuu Jr. and Vegeta Jr.\n\nIn Dragon Ball Online (which takes place 216 years after Dragon Ball Z, in which Toriyama had a lot of creative control over the story, unlike Dragon Ball GT), a new villain by the name of Miira appears with the goal to obtain Gokuu's DNA.\n\nIn Cross Epoch, the Dragon Ball and One Piece crossover one-shot, Gokuu is seen accompanying Luffy to attend a party hosted by Shenron from whom key characters from both series had received an invitation.\n\nIn Dragon Ball Minus, it is revealed that Gokuu was sent away by his mother and father (Gine &amp; Bardock) to escape Freeza's genocide of the Saiyans. Gokuu leaves Planet Vegeta in his pod with a forlorn look as his parents send him away.\n\nGokuu is known for his laid-back personality and his love of fighting worthy opponents. He will eat anything without much qualms. He has an uncanny ability to make allies out of foes he has fought (in some cases to the death), though his capacity for sparing his enemies has occasionally been criticized as foolish (Gokuu generally only fights to win and improve himself, and spares his enemies after winning only for them to attack him when his back is turned). Gokuu can also be very blunt, and not afraid to express his opinion in a discussion, such as when he questioned Krillin's marriage to Android 18 (who was not fully human and a previous enemy who threatened his life). Despite his kind-hearted nature, Gokuu can feel incredible anger in cases of extreme turmoil, such as the death of a close friend/relative, or when someone murders many innocents needlessly. He has a simple, practical view of the world and is somewhat naive to the world around him. Because of this, many characters incorrectly assume him to be somewhat stupid, although once he has a basic understanding of things, he learns very quickly. His most remarkable ability is his will to succeed, his tenacity and persistence.\n\nHe's so focused on improving himself as a warrior that some of the decisions he makes are detrimental to the survival of humanity or those who he cares about. Such examples include when he purposefully chose not to help his friends and family when they were attacked by Beerus at Bulma's birthday so as to study his opponent, or when he elected not to destroy Gero's lab in favor of his curiosity at his potential opponents' strength even though it might've meant the destruction of mankind. This is also touched upon when he spares Vegeta for a rematch in the Saiyan arc, despite this also being a threat to humanity. However, he has shown to be able to slightly curb this selfishness, as he elected to not return to life after dying in the fight against Cell so that Earth would not be endangered by the evil people he tends to attract (although, Goku is also interested in fighting the masters in the afterlife indicating some slight selfishness was still apparent).\n\nGoku has also admitted to not being good at creating things, and being better at breaking stuff at the end of Dragon Ball Kai. In Dragon Ball Super Ep. 4, Goku is revealed not to be much of a party-goer. He has also shown an affinity with training younger kids (like how he did with Gohan in the Androids arc, Goten &amp; Trunks in the Buu arc, and Uub at the end of the series).\n\n(Source: Dragon Ball Super Exciting Character Guide)"
         },
         {
-            "mal_id": 1111,
-            "url": "https://myanimelist.net/character/1111/CC",
-            "images": {
-                "jpg": {
-                    "image_url": "https://cdn.myanimelist.net/images/characters/13/33815.jpg"
-                },
-                "webp": {
-                    "image_url": "https://cdn.myanimelist.net/images/characters/13/33815.webp",
-                    "small_image_url": "https://cdn.myanimelist.net/images/characters/13/33815t.webp"
-                }
-            },
-            "name": "C.C.",
-            "name_kanji": "シー・ツー",
-            "nicknames": [
-                "C2",
-                "Immortal Witch",
-                "Pizza Girl",
-                "Zero's Mistress",
-                "Grey Witch"
-            ],
-            "favorites": 26012,
-            "about": "Age: 16 (biologically)\nBlood Type: Unknown\nHeight: 168 cm (5'6\")\nOccupation: Slave (Formerly), Terrorist, Leader of the Geass Order (Formerly), Right-hand woman of Lelouch, Knightmare Pilot \nAllegiance: Order of the Black Knights\nPosition: Second-in-command of the Black Knights\nKnightmare: Burai, Gawain (Co-pilot), Akatsuki Command Model, Lancelot Frontier\n\nC.C. (pronounced \"C2\") is the tritagonist of the anime/manga series Code Geass. She is an immortal woman and the former leader of the Geass Order that abandons the order and allies herself with Lelouch vi Britannia, granting him his Geass power and becoming his right-hand.\n\nC.C. is serious, solemn, and emotionally cut off from the world. For being betrayed in the past, she feels she cannot form a meaningful connection to anyone and only allies herself with others out of the pragmatic desire to reach her goal of ending her own life. Despite this, her time with Lelouch allows her to begin breaking down her emotional barriers, eventually learning to care for others again and see the value in her life, even making her experience what love feels like, an emotion she is unfamiliar with up to that point.\n\nCharacter Background (Major Spoilers):\n\nShe also has a somewhat obsessive penchant for pizza, especially Pizza Hut's Cheese-Kun.  Her love for pizza is so strong that she is willing to risk herself getting captured, twice nearly exposing herself to get a piece of a giant pizza made by the Student Council—which ruined both times.\n\n\nFirst Season:\n\nSecond Season:\n\n\nGeass (Formerly):\n\nCode of Immortality:\n\n(Source: Code Geass Wiki, Villains Wiki, Heroes Wiki)"
-        },
-        {
-            "mal_id": 118489,
-            "url": "https://myanimelist.net/character/118489/Shouto_Todoroki",
-            "images": {
-                "jpg": {
-                    "image_url": "https://cdn.myanimelist.net/images/characters/12/332527.jpg"
-                },
-                "webp": {
-                    "image_url": "https://cdn.myanimelist.net/images/characters/12/332527.webp",
-                    "small_image_url": "https://cdn.myanimelist.net/images/characters/12/332527t.webp"
-                }
-            },
-            "name": "Shouto Todoroki",
-            "name_kanji": "轟 焦凍",
-            "nicknames": [],
-            "favorites": 25784,
-            "about": "Age: 15\nBirthday: January 11\nBlood Type: O\nHeight: 176 cm (5'9\")\nAffiliation: U.A.\nQuirk: Half-Cold Half-Hot\n\nShouto Todoroki is a student at Yuuei training to become a Pro Hero. He got into Yuuei through a scholarship because of his powerful Quirk.\n\nShouto has bi-colored hair, the right side is white, the left one is red. He has a burn on his left eye. In his Hero Costume, Shouto wears a dark blue jacket, dark blue pants, a silver-colored combat vest, and white boots. He also wears a silver-colored belt with metal capsules.\n\n(Source: Boku no Hero Academia Wiki)"
-        },
-        {
-            "mal_id": 117909,
-            "url": "https://myanimelist.net/character/117909/Izuku_Midoriya",
-            "images": {
-                "jpg": {
-                    "image_url": "https://cdn.myanimelist.net/images/characters/7/299404.jpg"
-                },
-                "webp": {
-                    "image_url": "https://cdn.myanimelist.net/images/characters/7/299404.webp",
-                    "small_image_url": "https://cdn.myanimelist.net/images/characters/7/299404t.webp"
-                }
-            },
-            "name": "Izuku Midoriya",
-            "name_kanji": "緑谷 出久",
-            "nicknames": [
-                "Deku"
-            ],
-            "favorites": 25623,
-            "about": "Age: 14-16\nBirthday: July 15\nBlood type: O\nHeight: 166 cm (5'5\")\nAffiliation: U.A.\nQuirk: One For All\n\nIzuku Midoriya is the main protagonist of Boku no Hero Academia. Though originally born without a Quirk, he manages to catch the attention of the legendary hero All Might and has since become his close pupil and a student at UA.\n\nIzuku is a very timid and polite boy. Due to being bullied since childhood for being born without a Quirk, he is initially portrayed as insecure, being more reserved and not self expressive, especially in front of Katsuki. However, after being accepted into UA and facing Katsuki during Battle Training, he has gradually become more confident and brave.\n\nIzuku is also very diligent and strong willed. Since he greatly admires Heroes and has always aimed to be one, he has a habit of writing down in his notebooks all he knows about heroes and their quirks, including other UA students. He is a very caring person, and will never hesitate to rescue someone in danger, even if he knows he's not strong enough. When someone has a personal problem, Izuku will always try to help, even if it's not his business. Izuku also has the tendency to overthink with anything that grabs his attention, which makes him start mumbling to himself a lot.\n\n(Source: Boku no Hero Academia Wiki)"
-        },
-        {
             "mal_id": 46496,
             "url": "https://myanimelist.net/character/46496/Erwin_Smith",
             "images": {

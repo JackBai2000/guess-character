@@ -13,6 +13,9 @@ const NavBar = () =>{
                 <li>
                     <Link to ="/characters">Characters</Link>
                 </li>
+                <li>
+                    <Link to ="/game">Play!</Link>
+                </li>
             </ul>
         </nav>
     )

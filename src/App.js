@@ -2,22 +2,17 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
-import ListPage from './Pages/ListPage';
 import NotFoundPage from './Pages/NotFoundPage';
 import NavBar from './NavBar';
 import CharactersPage from './Pages/CharactersPage';
-import CharacterContent from './Pages/CharacterContent';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import miku from './nakano_miku_render___anime_render_by_niktushi_dcyji16-375w.png';
 import CharactersListPage from './Pages/CharactersListPage';
+import GamePage from './Pages/GamePage';
 
 function App() {
   
-
-  const [animeChars, SetAnimeChars] = useState([]);
   const [char, SetAnimeChar] = useState([]);
-
   const CharacterContent = async () =>{
     const temp = await fetch("https://api.jikan.moe/v4/characters/160603")
        .then(res => res.json());
@@ -29,8 +24,6 @@ function App() {
     CharacterContent();
   },[])
 
-  console.log(char);
-
   return (
     <BrowserRouter>
     <div className="App">
@@ -40,6 +33,7 @@ function App() {
       <Route path = "/about" element = {<AboutPage/>} />
       <Route path = "/characters" element = {<CharactersListPage/>} />
       <Route path = "/characters/:id" element = {<CharactersPage/>} />
+      <Route path = "/game" element = {<GamePage/>} />
       <Route path ="*" element = {<NotFoundPage/>}/>
       </Routes>
     </div>
