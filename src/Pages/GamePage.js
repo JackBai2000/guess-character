@@ -1,6 +1,7 @@
 import characters from './CharacterInfo.js'
 import { useState,  useEffect } from 'react';
 import miku from './../nakano_miku_render___anime_render_by_niktushi_dcyji16-375w.png';
+import removeAccents, { remove } from 'remove-accents';
 
 function GamePage() {
 
@@ -10,6 +11,7 @@ function GamePage() {
     const [userGuess, setUserGuess] = useState("");
     var lowGuess =''
     var correctAnswer =''
+    var cleanGuess =''
     const [currentChar, setCurrentChar] = useState("");
     var [playerScore, setPlayerScore] = useState(0);
 
@@ -24,8 +26,9 @@ function GamePage() {
     const handleChange = event => {
         setUserGuess(event.target.value);
         lowGuess = event.target.value.toLowerCase();
+        cleanGuess = removeAccents(lowGuess);
         correctAnswer = currentChar.name.toLowerCase();
-        if (lowGuess === correctAnswer){
+        if (cleanGuess === correctAnswer){
             setUserGuess('')
             updateFields()
         }
@@ -49,7 +52,7 @@ function GamePage() {
         <h1> Get Ready to Play Buddy </h1>
         <img src = {image} alt ={miku} width={400} length = {400}></img>
         <br></br>
-        <p>Please enter your guess here: {userGuess}</p>
+        <p>Please enter your guess here: {correctAnswer}</p>
         <input type="text" onChange={handleChange} value ={userGuess}/>
         <p>{currentChar.name}</p>
         <br></br>
