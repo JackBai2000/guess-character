@@ -24,10 +24,11 @@ function GamePage() {
         }, []);
 
     const handleChange = event => {
+        console.log(currentChar);
         setUserGuess(event.target.value);
         lowGuess = event.target.value.toLowerCase();
         cleanGuess = removeAccents(lowGuess);
-        correctAnswer = currentChar.name.toLowerCase();
+        correctAnswer = removeAccents(currentChar.name.toLowerCase());
         if (cleanGuess === correctAnswer){
             setUserGuess('')
             updateFields()
@@ -49,14 +50,18 @@ function GamePage() {
 
     return (
         <>
-        <h1> Get Ready to Play Buddy </h1>
-        <img src = {image} alt ={miku} width={400} length = {400}></img>
+        <div style = {{textAlign: "center"}}>
+        <h1> Play! </h1>
+        </div>
+ 
+        <img style={{margin: 'auto', display: 'block'}}src = {image} alt ={miku} width={400} length = {400} ></img>
         <br></br>
-        <p>Please enter your guess here: {correctAnswer}</p>
-        <input type="text" onChange={handleChange} value ={userGuess}/>
-        <p>{currentChar.name}</p>
-        <br></br>
+        <div style = {{textAlign: "center"}}>
+        <p >Please enter your guess here: {correctAnswer}</p>
+        <input style={{margin: 'auto', display: 'block'}} type="text" onChange={handleChange} value ={userGuess}/>
         <p>Current Score is: {playerScore}</p>
+        <p>{cleanGuess}</p>
+        </div>
         </>
     );
 
