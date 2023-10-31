@@ -459,11 +459,11 @@ const characters = [
                 "url": "https://myanimelist.net/character/1/Spike_Spiegel",
                 "images": {
                     "jpg": {
-                        "image_url": "https://cdn.myanimelist.net/images/characters/4/50197.jpg"
+                        "image_url": "https://cdn.myanimelist.net/images/characters/11/516853.jpg"
                     },
                     "webp": {
-                        "image_url": "https://cdn.myanimelist.net/images/characters/4/50197.webp",
-                        "small_image_url": "https://cdn.myanimelist.net/images/characters/4/50197t.webp"
+                        "image_url": "https://cdn.myanimelist.net/images/characters/11/516853.webp",
+                        "small_image_url": "https://cdn.myanimelist.net/images/characters/11/516853t.webp"
                     }
                 },
                 "name": "Spike Spiegel",
@@ -495,11 +495,11 @@ const characters = [
                 "url": "https://myanimelist.net/character/118737/Emilia",
                 "images": {
                     "jpg": {
-                        "image_url": "https://cdn.myanimelist.net/images/characters/7/437435.jpg"
+                        "image_url": "https://cdn.myanimelist.net/images/characters/12/524543.jpg"
                     },
                     "webp": {
-                        "image_url": "https://cdn.myanimelist.net/images/characters/7/437435.webp",
-                        "small_image_url": "https://cdn.myanimelist.net/images/characters/7/437435t.webp"
+                        "image_url": "https://cdn.myanimelist.net/images/characters/12/524543.webp",
+                        "small_image_url": "https://cdn.myanimelist.net/images/characters/12/524543t.webp"
                     }
                 },
                 "name": "Emilia",
