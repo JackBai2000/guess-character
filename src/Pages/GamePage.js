@@ -28,7 +28,7 @@ function GamePage() {
             guessCharactersList.push(characters[currentCharInd]);
             }
         setCurrentChar(guessCharactersList[0]);
-        }, []);
+        }, [isPlaying]);
 
     function correctAnswers(charNicknames, name) {
         var correctNicknames = [];
@@ -55,7 +55,7 @@ function GamePage() {
             setUserGuess('')
             updateFields()
         }
-        else if (cleanGuess === "s"){
+        else if (cleanGuess === "skip"){
             setUserGuess('')
             updateFields()
             setPlayerScore(playerScore -=1);
@@ -68,8 +68,8 @@ function GamePage() {
             console.log("Win")
             setIsPlaying(false);
         }
-        setGuessCharactersList(guessCharactersList.slice(1))
-        setCurrentChar(guessCharactersList[1])
+        setGuessCharactersList(guessCharactersList.slice(1));
+        setCurrentChar(guessCharactersList[1]);
         setPlayerScore(playerScore+=1);
         correctAnswer = removeAccents(currentChar.name.toLowerCase());
         setCurrentCharNames(correctAnswers(currentChar.nicknames,correctAnswer));
@@ -78,6 +78,12 @@ function GamePage() {
 
     const image = (currentChar) ? currentChar.images.jpg.image_url : miku
 
+    function playAgain(){
+        setPlayerScore(0);
+        setIsPlaying(true);
+    }
+
+    if (isPlaying){
     return (
         <>
         <div style = {{textAlign: "center"}}>
@@ -95,6 +101,16 @@ function GamePage() {
         </>
     );
 
+    }
+
+    return (
+    <>
+    <div style = {{textAlign: "center"}}>
+    <h1>Thanks for playing!</h1>
+    <h1>Your final score is {playerScore}!</h1>
+    <button onClick={playAgain}>Play Again!</button>
+    </div>
+    </>
+    )
 }
 export default GamePage;     
-
