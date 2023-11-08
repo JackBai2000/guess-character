@@ -135,7 +135,7 @@ function GamePage() {
 
     const getDeadTime = () => {
         let deadline = new Date();
-        deadline.setSeconds(deadline.getSeconds() + 5);
+        deadline.setSeconds(deadline.getSeconds() + 60);
         return deadline;
     }
 
@@ -150,11 +150,8 @@ function GamePage() {
     if (isPlaying){
     return (
         <>
-        <div style = {{textAlign: "center"}}>
-        <h1 className = 'text-green-500 dark:shadow-lg mx-2 dark:text-primary'> Play! </h1>
-        </div>
- 
-        <img style={{margin: 'auto', display: 'block'}}src = {image} alt ={miku} width={400} length = {400} ></img>
+        <h1 className='font-bold text-center text-xl text-green-300'>Play!</h1>
+        <img className = 'm-auto ' src = {image} alt ={miku} width={400} length = {400} ></img>
         <br></br>
         <div style = {{textAlign: "center"}}>
         <p>Please enter your guess here: {correctAnswer}</p>

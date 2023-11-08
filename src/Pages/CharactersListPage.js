@@ -5,22 +5,22 @@ import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import Item from '@mui/material/ListItem';
 import CharactersPage from "./CharactersPage";
-import banner from '../your-name-banner.jpg'
+import banner from '../characterpagebackgroundsample.png'
 
 const CharactersListPage = () => {
     return (
         <>
-        <h1 style ={{textAlign: 'center'}}>List of Characters</h1>
-        <div style ={{backgroundImage: `url(${banner})`}}>
+        <div className='object-fill bg-cover bg-no-repeat' style ={{backgroundImage: `url(${banner})`}}>
+        <h1 className = 'text-center text-4xl text-sky-300'>List of Characters</h1>
         <Grid container direction = "row">
         {characters.map(character => (
             <box>
-            <Item>
+            <Item >
                 
                 <Link key = {character.id}to = {`/characters/${character.mal_id}`}>
                 <figure>
-                <img src={character.images.jpg.image_url} width={300} length = {300}></img>
-                <figcaption style ={{fontWeight: 600, color: 'black', bold: true, justifyContent: 'bottom'}} >{character.name}</figcaption>
+                <img src={character.images.jpg.image_url} width={150} length = {150}></img>
+                <figcaption className = 'text-sky-300' >{character.name}</figcaption>
                 </figure>
                 </Link>
                 

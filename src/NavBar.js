@@ -1,20 +1,21 @@
 import { Link } from 'react-router-dom';
+import test from './../src/test.jpg'
 
 const NavBar = () =>{
     return (
-        <nav className='text-3xl color:green'>
+        <nav className = ''style ={{backgroundImage: `url(${test})`}}>
             <ul>
                 <li>
-                    <Link to ="/"> Home</Link>
+                    <Link to ="/" className='hover:italic'> Home</Link>
                 </li>
                 <li>
-                    <Link to ="/about">About</Link>
+                    <Link to ="/about" className='hover:italic'>About</Link>
                 </li>
                 <li>
-                    <Link to ="/characters">Characters</Link>
+                    <Link to ="/characters" className='hover:italic'>Characters</Link>
                 </li>
                 <li>
-                    <Link to ="/game">Play!</Link>
+                    <Link to ="/game" className='hover:italic'>Play!</Link>
                 </li>
             </ul>
         </nav>

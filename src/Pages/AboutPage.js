@@ -1,12 +1,11 @@
-import bocchi from '../bocchi.jpg'
+import bg from '../aboutpage.jpg'
 const AboutPage = () => {
     return (
         <>
-        <h1 style={{textAlign: 'center', fontSize: '50px'}}> About Page </h1>
-        <p style={{fontSize: '25px'}}>The rules of the game are simple, you will be given a randomly selected popular anime character from
-            the characters section and you will have to name them! Have fun with this and do your best!
-        </p>
-        <div style ={{height: '100vh', backgroundImage: `url(${bocchi})`}}>
+        <div className='object-fill w-screen h-screen bg-no-repeat bg-cover' style ={{backgroundImage: `url(${bg})`}}>
+        <h1 className='text-center font-500 text-orange-500 text-3xl'> About Page </h1>
+        <h1 className='text-center font-500 text-orange-400 text-2xl'>The rules of the game are simple, you will be given a minute to name as many popular anime characters as you can, good luck!
+        </h1>
         </div>
         </>
     );
