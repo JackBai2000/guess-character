@@ -3,6 +3,8 @@ import { useState,  useEffect, useRef } from 'react';
 import miku from './../nakano_miku_render___anime_render_by_niktushi_dcyji16-375w.png';
 import removeAccents from 'remove-accents';
 import Timer from './../Components/Timer.js'
+import playbg from './../playbg.jpg'
+import endbg from './../gorgeousbackground.png'
 
 
 function GamePage() {
@@ -150,17 +152,15 @@ function GamePage() {
     if (isPlaying){
     return (
         <>
-        <h1 className='font-bold text-center text-xl text-green-300'>Play!</h1>
-        <img className = 'm-auto ' src = {image} alt ={miku} width={400} length = {400} ></img>
-        <br></br>
-        <div style = {{textAlign: "center"}}>
-        <p>Please enter your guess here: {correctAnswer}</p>
-        <input style={{margin: 'auto', display: 'block'}} type="text" onChange={handleChange} value ={userGuess}/>
-        <h1>Current Score is: {playerScore}</h1>
+        <div className='object-fill w-screen h-screen bg-cover' style ={{backgroundImage: `url(${playbg})`}}>
+        <h1 className='font-bold text-center text-3xl text-black-200'>Play!</h1>
+        <img className = 'm-auto rounded-lg border-2 border-indigo-600' src = {image} alt ={miku} width={400} length = {400} ></img>
+        <p className='font-bold text-black-500 text-center text-2xl'>Please enter your guess here: {correctAnswer}</p>
+        <input className='m-auto display-block border-2 border-black-600 rounded-md' type="text" onChange={handleChange} value ={userGuess}/>
+        <h1 className='font-bold text-black-700 text-center text-3xl'>Current Score is: {playerScore}</h1>
         <h1>{cleanGuess}</h1>
-        <h1>Time Remaining:</h1>
-        <h1>{timer}</h1>
-        <button onClick={onClickReset}>Reset</button>
+        <h1 className='font-bold text-black-700 text-center text-3xl'>Time Remaining:</h1>
+        <h1 className='font-bold text-black-700 text-center text-3xl'>{timer}</h1>
         </div>
         </>
     );
@@ -168,7 +168,7 @@ function GamePage() {
     }
     return (
     <>
-    <div style = {{textAlign: "center"}}>
+    <div className='object-fill w-screen h-screen bg-cover text-center' style ={{backgroundImage: `url(${endbg})`}}>
     <h1>Thanks for playing!</h1>
     <h1>Your final score is {playerScore}!</h1>
     <button onClick={playAgain}>Play Again!</button>

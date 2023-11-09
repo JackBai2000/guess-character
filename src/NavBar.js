@@ -6,10 +6,10 @@ const NavBar = () =>{
         <nav className = ''style ={{backgroundImage: `url(${test})`}}>
             <ul>
                 <li>
-                    <Link to ="/" className='hover:italic'> Home</Link>
+                    <Link to ="/" className='hover:italic '> Home</Link>
                 </li>
                 <li>
-                    <Link to ="/about" className='hover:italic'>About</Link>
+                    <Link to ="/about" className='hover:italic '>About</Link>
                 </li>
                 <li>
                     <Link to ="/characters" className='hover:italic'>Characters</Link>
