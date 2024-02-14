@@ -5,7 +5,7 @@ const HomePage = () => {
     return (
         <>
         <div className='object-fill w-screen h-screen bg-no-repeat bg-cover' style ={{backgroundImage: `url(${banner})`}}>
-        <h1 className='text-center font-bold text-3xl font-sans text-green-500'> Welcome to Guess Anime! </h1>
+        <h1 className='text-center font-bold text-4xl font-sans text-black-500 backdrop-blur-md'> Welcome to Guess Anime! </h1>
         </div>
         </>
     );

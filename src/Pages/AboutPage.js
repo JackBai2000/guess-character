@@ -3,8 +3,12 @@ const AboutPage = () => {
     return (
         <>
         <div className='object-fill w-screen h-screen bg-no-repeat bg-cover' style ={{backgroundImage: `url(${bg})`}}>
-        <h1 className='text-center font-500 text-sky-500 text-3xl'> About Page </h1>
-        <h1 className='text-center font-500 text-sky-400 text-2xl'>The rules of the game are simple, you will be given a minute to name as many popular anime characters as you can, good luck!
+        <h1 className='font-bold text-center  text-black-500 text-4xl backdrop-blur-sm'> About Page </h1>
+        <br></br>
+        <h1 className='font-bold text-center  text-black-500 text-3xl backdrop-blur-sm'>The rules of the game are simple!<br></br>
+         You will be given a minute to name as many popular anime characters as you can and your high score will be recorded. <br></br>
+         You can also type "skip" to skip the character you are currently naming!
+
         </h1>
         </div>
         </>
